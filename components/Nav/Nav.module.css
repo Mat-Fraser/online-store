@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em 1.5em;
+    background: #70e1f5; 
+    background: -webkit-linear-gradient(to right, #ffd194, #70e1f5); 
+    background: linear-gradient(to right, #ffd194, #70e1f5);
+  }
+  .navTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 0;
+  }
+  .navCart {
+    margin: 0;
+  }
+  .navCart svg {
+    margin-right: .5em;
+  }
+  .navCart button {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    background: none;
+    padding: 0;
+    border: 0;
+  }
